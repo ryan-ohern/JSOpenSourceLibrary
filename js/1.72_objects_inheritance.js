@@ -29,4 +29,3 @@ myNewHouse.age = 10;
 
 console.log(myNewHouse.location());
 console.log(myNewHouse.getHouseInfo());
-
