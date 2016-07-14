@@ -15,26 +15,3 @@ var house = {
 };
 
 console.log(house.location());
-
-//OBJECT LITERALS
-//can also pass values to house (if being used as object literal)
-
-var house2 = {
-	streetAddress: 	" ",
-	city:			" ",
-	state:			" ",
-	age: 			0,
-	color: 			" ",
-	size: 			" ", 
-	location: function(){
-		return this.streetAddress + " " +
-		this.city + ", " +
-		this.state;
-	}
-};
-
-var myNewHouse = Object.create(house2)
-myNewHouse.streetAddress = "123 Awesome Street Lane";
-myNewHouse.city = "Fishers";
-myNewHouse.state = "IN";
-console.log(myNewHouse.location());
