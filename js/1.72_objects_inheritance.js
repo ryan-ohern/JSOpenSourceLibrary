@@ -19,7 +19,7 @@ var house = {
 	}
 };
 
-//creating a new object with inheritance from "house"
+//creating a new instance of house
 var myNewHouse = Object.create(house)
 //passing values
 myNewHouse.streetAddress = "123 Awesome Street Lane";
@@ -29,3 +29,4 @@ myNewHouse.age = 10;
 
 console.log(myNewHouse.location());
 console.log(myNewHouse.getHouseInfo());
+
