@@ -1,3 +1,5 @@
+//STRINGS
+
 //assigning strings to variables
 var myCatsName = "Jack Jack";
 var myCatsColor = "brown";
