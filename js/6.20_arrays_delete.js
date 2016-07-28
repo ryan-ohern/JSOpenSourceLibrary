@@ -12,3 +12,12 @@ console.log(listOfMarioCharacters[3]);
 console.log(listOfMarioCharacters.length);
 
 
+// SPLICE
+
+var listOfNumbers = [1,2,3,5,8,13,21];
+
+// select index value & number of items to remove starting on that position
+// this locates index 5 (13) and removes one array item
+listOfNumbers.splice(5, 1);
+
+console.log(listOfNumbers);
